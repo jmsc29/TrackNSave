@@ -1,14 +1,13 @@
-import React from 'react';
-import NavBar from './components/navbar/NavBar';
 import Info from './components/info/Info';
 import Login from './components/login/Login';
 
 import { isMobile } from 'react-device-detect';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <div className="flex flex-col h-screen overflow-hidden">
-      <NavBar />
+      <Navbar />
       <div className="flex-1 flex flex-col md:flex-row overflow-hidden pt-16">
         {isMobile ? (
           // Mostrar solo Login en móviles

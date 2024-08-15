@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NavBar: React.FC = () => {
+const Navbar: React.FC = () => {
     return (
         <nav className="bg-gray-800 p-4 flex justify-between items-center fixed top-0 left-0 right-0 z-50 h-16">
             <div className="text-white text-lg font-bold">TrackNSave</div>
@@ -14,4 +14,4 @@ const NavBar: React.FC = () => {
     );
 };
 
-export default NavBar;
+export default Navbar;
