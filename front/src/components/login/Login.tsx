@@ -3,7 +3,7 @@ import backgroundImage from '../../assets/fondo-login.jpg';
 
 const Login: React.FC = () => {
     return (
-        <div className="relative flex items-center justify-center w-full h-full p-8">
+        <div className="relative flex items-center justify-center w-full h-full p-8 overflow-auto">
             <div
                 className="absolute inset-0"
                 style={{
@@ -15,7 +15,7 @@ const Login: React.FC = () => {
             ></div>
 
             <div className="relative max-w-md w-full p-8 bg-white bg-opacity-80 rounded-lg shadow-lg">
-                <h2 className="text-3xl font-bold mb-6 text-gray-900 text-center">Login</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-900 text-center">Login</h2>
                 <form>
                     <div className="mb-4">
                         <label htmlFor="email" className="block text-gray-700 text-sm font-medium mb-2">Email</label>
